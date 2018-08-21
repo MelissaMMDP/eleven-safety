@@ -1,40 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>test site</title>
 	<link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
-	
-<div class="grid-container">
-  <header class="grid-column">
-    <a href="https://placeholder.com"><img class="brand" src="http://via.placeholder.com/300x80/ffffff/4fb4cc"></a>
-  </header>
-  <main class="grid-column">
-    <h2>
-      <strong>Daily Safety Metrics</strong></h2>
-    <div class="metrics-form">
-      <form action="">
-        <input id="jobNumber" type="number" min="201800" max="202100" placeholder="Job Number">
-        <input id="employeeID" type="number" min="900" max="20000" placeholder="Employee ID">
-        <input id="hoursOnsite" type="number" min="1" max="300" placeholder="Hours Onsite">
-        <input id="milesOnsite" type="number" min="1" max="100" placeholder="Miles Onsite">
-        <input id="subHoursOnsite" type="number" min="1" max="300" placeholder="Sub Hours Onsite">
-        <input id="subMilesOnsite" type="number" min="1" max="100" placeholder="Sub Miles Onsite">
-        <input id="stopWorkAuthority" type="number" min="1" max="20" placeholder="SWA's">
-        <input id="hazID" type="number" min="1" max="20" placeholder="Haz ID's">
-        <input id="behaviorBasedObservation" type="number" min="1" max="20" placeholder="BBO's">
-        <input id="nearMiss" type="number" min="1" max="20" placeholder="Near Miss">
-        <input id="email" type="email" placeholder="Email">
-        <input type="button" value="Submit"></input>
-      </form>
-    </div>
-  </main>
-  <footer class="grid-column">
-    <p>Copyright © 2018</p>
-  </footer>
-</div>
+
+	<section class="metrics-form">
+		<h2>Daily Safety Metrics</h2>
+		<form action="">
+			<div>
+				<label for="">Employee ID</label>
+				<input id="employeeID" type="number" min="900" max="20000" placeholder="">
+			</div>
+			<div>
+				<label for="">Job Number</label>
+				<input id="jobNumber" type="number" min="201800" max="202100" placeholder="">
+			</div>
+			<div>
+				<label for="">Hours Onsite</label>
+				<input id="hoursOnsite" type="number" min="1" max="300" placeholder="">
+			</div>
+			<div>
+				<label for="">Miles Onsite</label>
+				<input id="milesOnsite" type="number" min="1" max="100" placeholder="">
+			</div>
+			<div>
+				<label for="">SWA's</label>
+				<input id="stopWorkAuthority" type="number" min="1" max="20" placeholder="">
+			</div>
+			<div>
+				<label for="">Haz ID's</label>
+				<input id="hazID" type="number" min="1" max="20" placeholder="">
+			</div>
+			<div>
+				<label for="">BBO's</label>
+				<input id="behaviorBasedObservation" type="number" min="1" max="20" placeholder="">
+			</div>
+			<div>
+				<label for="">Near Miss</label>
+				<input id="nearMiss" type="number" min="1" max="20" placeholder="">
+			</div>
+			<div>
+				<label for="">Email</label>
+				<input id="email" type="email" placeholder="">
+			</div>
+			<div>
+				<label for="">Write your message</label>
+				<textarea name="" id="" cols="30" rows="7"></textarea>
+			</div>
+			<div>
+				<button>Send</button>
+			</div>
+		</form>
+	</section>
 
 </body>
+
 </html>
