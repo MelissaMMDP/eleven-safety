@@ -11,7 +11,7 @@
 
 	<section class="metrics-form">
 		<h2>Daily Safety Metrics</h2>
-		<form action="resources/metrics-form.php" method="post" id="metrics-form">
+		<form action="resources/metrics-form.php" method="post" name="metrics-form" id="metrics-form">
 			<div>
 				<label for="">Employee ID</label>
 				<input name="employeeID" id="employeeID" type="number" min="900" max="20000">
@@ -53,7 +53,7 @@
 				<textarea name="message" id="message" cols="30" rows="7"></textarea>
 			</div>
 			<div>
-				<button type="submit" form="metrics-form">Send</button>
+				<button type="submit" name="metrics-form" form="metrics-form">Send</button>
 			</div>
 		</form>
 	</section>
