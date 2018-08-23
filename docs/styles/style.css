@@ -6,7 +6,11 @@
 
 body {
   font-family: "futura-pt", sans-serif;
-  font-size: 16px;
+  font-size: 1em;
+}
+
+.error {
+  color: red;
 }
 
 .metrics-form {
@@ -19,6 +23,11 @@ body {
 }
 
 .metrics-form h2 {
+  padding: 10px 10px;
+  font-size: 2em;
+}
+
+.metrics-form p {
   padding: 10px 10px;
 }
 
@@ -35,21 +44,21 @@ body {
     padding: 16px;
     margin: 32px auto;
   }
-
   .metrics-form h2 {
     padding: 20px 0;
   }
-
+  .metrics-form p {
+    grid-column: 1 / span 2;
+    padding: 10px 0;
+  }
   .metrics-form div {
     padding: 10px 0;
   }
-
   .metrics-form-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
   }
-
   .grid-100 {
     grid-column: 1 / span 2;
   }
@@ -77,8 +86,8 @@ button {
   color: #fff;
   border: 0;
   text-transform: uppercase;
-  font-size: 6vw;
   letter-spacing: 0.0625em;
+  font-size: 2em;
 }
 
 button:hover, button:focus {
